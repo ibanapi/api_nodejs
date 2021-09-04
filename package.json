@@ -1,0 +1,32 @@
+{
+  "name": "ibanapi",
+  "version": "1.0.0",
+  "description": "The official IBANAPI.com node module, the ibanapi.com is an online service to validate iban and get bank information from it.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibanapi/ibanapi_node.git"
+  },
+  "keywords": [
+    "iban",
+    "api",
+    "ibanapi",
+    "iban",
+    "bank",
+    "bic",
+    "bic"
+  ],
+  "author": "IBANAPI.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibanapi/ibanapi_node/issues"
+  },
+  "homepage": "https://github.com/ibanapi/ibanapi_node#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0"
+  }
+}
