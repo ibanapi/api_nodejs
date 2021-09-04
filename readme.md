@@ -9,7 +9,7 @@ This module offers methods to validate IBAN (full and basic validation) wherein 
 * You can now initialize & use the package as follows
 
 * For full iban validation
-```
+```node
     //Get all the IBAN Information
     ibanapi.setConfig("API_KEY")
     ibanapi.validateIBAN("EE471000001020145685",ibanResult);
@@ -19,7 +19,7 @@ This module offers methods to validate IBAN (full and basic validation) wherein 
 ```
 
 * For basic iban validation
-```
+```node
     //Get all the basic IBAN Information
     ibanapi.setConfig("API_KEY")
     ibanapi.validateIBANBasic("EE471000001020145685",ibanBasicResult);
@@ -29,7 +29,7 @@ This module offers methods to validate IBAN (full and basic validation) wherein 
 ```
 
 * To get the balance
-```
+```node
     //Get the account balance
     ibanapi.setConfig("API_KEY")
     ibanapi.getBalance(balanceResult);
